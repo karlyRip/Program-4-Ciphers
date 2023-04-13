@@ -4,15 +4,16 @@ public abstract class Cipher {
     abstract public char decrypt (char c);
 
     public String encrypt (String s) {
+        StringBuilder sb = new StringBuilder();
         for(int i = 0; i < s.length(); i++){
-            encrypt(s.charAt(i));
+            sb.append(encrypt(s.charAt(i)));
         }
 
-        return s;
+        return sb.toString();
     }
     public String decrypt (String s) {
         for(int i = s.length()-1; i >= 0; i--){
-            encrypt(s.charAt(i));
+            decrypt(s.charAt(i));
         }
 
         return s;

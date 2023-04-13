@@ -24,9 +24,9 @@ public class VigenereCipher extends Cipher{
 	
 	public VigenereCipher(VigenereCipher other){
 		// TODO: complete this copy constructor
-		ArrayList<CaesarCipher> sC= new ArrayList<>();
+		subCiphers= new ArrayList<>();
 		for (int i = 0; i < other.subCiphers.size(); i++){
-			sC.add(new CaesarCipher(other.subCiphers.get(i)));
+			this.subCiphers.add(new CaesarCipher(other.subCiphers.get(i)));
 		}
 
 	}
