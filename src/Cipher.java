@@ -4,13 +4,13 @@ public abstract class Cipher {
     abstract public char decrypt (char c);
 
     public String encrypt (String s) {
-        String en = "";
+        StringBuilder en = new StringBuilder();
         for(int i = 0; i < s.length(); i++){
-            en += encrypt(s.charAt(i));
+            en.append(encrypt(s.charAt(i)));
         }
 
-        System.out.print(en);
-        return en;
+        System.out.print(en.toString());
+        return en.toString();
     }
     public String decrypt (String s) {
         StringBuilder de = new StringBuilder();
