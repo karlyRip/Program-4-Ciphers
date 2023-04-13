@@ -45,17 +45,6 @@ public class VigenereCipher extends Cipher{
 		return res;
 	}
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-		if (!(o instanceof VigenereCipher that)) return false;
-		return nextIndexForEncrypt == that.nextIndexForEncrypt && nextIndexForDecrypt == that.nextIndexForDecrypt && Objects.equals(subCiphers, that.subCiphers);
-	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(subCiphers, nextIndexForEncrypt, nextIndexForDecrypt);
-	}
 
 	// Returns a new object, a deep copy of the current object
 	@Override

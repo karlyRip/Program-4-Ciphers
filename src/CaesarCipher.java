@@ -39,19 +39,6 @@ public class CaesarCipher extends Cipher{
 		}
 	}
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-		if (o == null || getClass() != o.getClass()) return false;
-		CaesarCipher that = (CaesarCipher) o;
-		return shiftAmount == that.shiftAmount;
-	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(shiftAmount);
-	}
-
 	// Returns a new object, a deep copy of the current object
 	@Override
 	public Cipher newCopy() {
