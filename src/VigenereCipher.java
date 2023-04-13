@@ -24,6 +24,14 @@ public class VigenereCipher extends Cipher{
 	
 	public VigenereCipher(VigenereCipher other){
 		// TODO: complete this copy constructor
+		/*ArrayList<CaesarCipher> sC= new ArrayList<>();
+		for (int i = 0; i < other.subCiphers.size(); i++){
+			sC.add(other.subCiphers.get(i));
+		}
+
+		this(other);
+
+		 */
 	}
 	
 	@Override
@@ -55,7 +63,6 @@ public class VigenereCipher extends Cipher{
 	// Returns a new object, a deep copy of the current object
 	@Override
 	public Cipher newCopy() {
-		//?
 		return new VigenereCipher(this);
 	}
 

@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class CaesarCipher extends Cipher{
 	private final static int NUM_LETTERS = 26;
@@ -12,6 +13,7 @@ public class CaesarCipher extends Cipher{
 	
 	public CaesarCipher(CaesarCipher other){
 		// TODO: complete this copy constructor
+		this(other.shiftAmount);
 	}
 	
 	@Override
@@ -35,6 +37,19 @@ public class CaesarCipher extends Cipher{
 		else{
 			return c;
 		}
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		CaesarCipher that = (CaesarCipher) o;
+		return shiftAmount == that.shiftAmount;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(shiftAmount);
 	}
 
 	// Returns a new object, a deep copy of the current object
