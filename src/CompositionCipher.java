@@ -36,6 +36,7 @@ public class CompositionCipher extends Cipher{
 
     @Override
     public CompositionCipher newCopy() {
+
         return new CompositionCipher(this);
     }
 }

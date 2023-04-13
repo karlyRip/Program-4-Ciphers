@@ -4,19 +4,22 @@ public abstract class Cipher {
     abstract public char decrypt (char c);
 
     public String encrypt (String s) {
-        StringBuilder sb = new StringBuilder();
+        String en = "";
         for(int i = 0; i < s.length(); i++){
-            sb.append(encrypt(s.charAt(i)));
+            en += encrypt(s.charAt(i));
         }
 
-        return sb.toString();
+        System.out.print(en);
+        return en;
     }
     public String decrypt (String s) {
+        StringBuilder de = new StringBuilder();
         for(int i = s.length()-1; i >= 0; i--){
-            decrypt(s.charAt(i));
+            de.insert(0, decrypt(s.charAt(i)));
         }
 
-        return s;
+        System.out.println(de.toString());
+        return de.toString();
     }
     abstract public Cipher newCopy();
 }

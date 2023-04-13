@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9f58ee0-b19d-48b4-ac45-1d14a7764e33" name="Changes" comment="method headers for cipher class">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_13_2023_10_21_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_13_2023_10_21_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d9f58ee0-b19d-48b4-ac45-1d14a7764e33" name="Changes" comment="We fixed the deep copy constructor for VigenereCipher and changed the returns (Strings) for the encrypt and decrypt methods in Cipher.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CompositionCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompositionCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VigenereCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VigenereCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ONBKTY82P2DYnYsbETE0VfVe6n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,6 +22,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
@@ -66,12 +58,12 @@
       <option name="presentableId" value="Default" />
       <updated>1681391098263</updated>
     </task>
-    <task id="LOCAL-00001" summary="method headers for cipher class">
-      <created>1681392081739</created>
+    <task id="LOCAL-00001" summary="We fixed the deep copy constructor for VigenereCipher and changed the returns (Strings) for the encrypt and decrypt methods in Cipher.">
+      <created>1681404470181</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1681392081739</updated>
+      <updated>1681404470181</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -88,7 +80,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="method headers for cipher class" />
-    <option name="LAST_COMMIT_MESSAGE" value="method headers for cipher class" />
+    <MESSAGE value="We fixed the deep copy constructor for VigenereCipher and changed the returns (Strings) for the encrypt and decrypt methods in Cipher." />
+    <option name="LAST_COMMIT_MESSAGE" value="We fixed the deep copy constructor for VigenereCipher and changed the returns (Strings) for the encrypt and decrypt methods in Cipher." />
   </component>
 </project>
