@@ -1,7 +1,7 @@
 public abstract class Cipher {
-    abstract public void encrypt (char c);
+    abstract public char encrypt (char c);
 
-    abstract public void decrypt (char c);
+    abstract public char decrypt (char c);
 
     public void encrypt (String s) {
         for(int i = 0; i < s.length(); i++){
