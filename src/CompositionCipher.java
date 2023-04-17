@@ -10,7 +10,7 @@ public class CompositionCipher extends Cipher{
         //TODO
         ciphers = new ArrayList<>();
         for (int i = 0; i < other.ciphers.size(); i++) {
-            this.ciphers.add(i, other.ciphers.get(i));
+            this.ciphers.add(i, other.ciphers.get(i).newCopy());
         }
     }
 

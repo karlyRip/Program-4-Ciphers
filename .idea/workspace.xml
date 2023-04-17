@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9f58ee0-b19d-48b4-ac45-1d14a7764e33" name="Changes" comment="method headers for cipher class">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_13_2023_1_11_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_13_2023_1_11_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d9f58ee0-b19d-48b4-ac45-1d14a7764e33" name="Changes" comment="trying to pass more tests- edited copy constructor for vigenereCipher and changed string encrypt and decrypt methods to stringbuilders.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VigenereCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VigenereCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositionCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompositionCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681392081739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trying to pass more tests- edited copy constructor for vigenereCipher and changed string encrypt and decrypt methods to stringbuilders.">
+      <created>1681407634293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681407634293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="method headers for cipher class" />
-    <option name="LAST_COMMIT_MESSAGE" value="method headers for cipher class" />
+    <MESSAGE value="trying to pass more tests- edited copy constructor for vigenereCipher and changed string encrypt and decrypt methods to stringbuilders." />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to pass more tests- edited copy constructor for vigenereCipher and changed string encrypt and decrypt methods to stringbuilders." />
   </component>
 </project>
