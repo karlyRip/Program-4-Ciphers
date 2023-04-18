@@ -109,7 +109,6 @@ public class TestCiphers {
 		assertEquals("", runTest(vc, answer, false));
 	}
 	
-	
 	@Test
 	public void compositionWithCaesar_StringMethods(){
 		CompositionCipher comp_cc = new CompositionCipher();
